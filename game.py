@@ -25,10 +25,10 @@ game_font = pygame.font.SysFont('Comic Sans MS',64)
 small_font = pygame.font.SysFont('Comic Sans MS',40)
 
 #loading assets
-bg_surface = pygame.image.load('assets/Background.png').convert()
-board_surface = pygame.image.load('assets/Board.png').convert_alpha()
-stone0_surface = pygame.image.load('assets/Stone0.png').convert_alpha()
-stone1_surface = pygame.image.load('assets/Stone1.png').convert_alpha()
+bg_surface = pygame.image.load('assets/Background_darkmode.png').convert()
+board_surface = pygame.image.load('assets/Board_darkmode.png').convert_alpha()
+stone0_surface = pygame.image.load('assets/Stone0_darkmode.png').convert_alpha()
+stone1_surface = pygame.image.load('assets/Stone1_darkmode.png').convert_alpha()
 icon_surface = pygame.image.load('assets/Icon.png').convert_alpha()
 
 #changing icon
