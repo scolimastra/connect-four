@@ -95,7 +95,6 @@ def Stone(player, pos):
 
 def fallingStone(player, begin, pos):
 	new_Stone = stone1_surface.get_rect(topleft = begin)
-	print(new_Stone, player, pos)
 	return new_Stone, player, pos
 
 #displaying stones
